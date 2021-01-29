@@ -1,0 +1,32 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Nodejs Restful API crud using express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "keywords": [
+    "crud",
+    "nodejs",
+    "express",
+    "mongodb",
+    "restful",
+    "api"
+  ],
+  "author": "Vuthy Sreang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
